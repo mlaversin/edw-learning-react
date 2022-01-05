@@ -9,5 +9,5 @@ export default function BtnSlider(props) {
         >
             <img src={props.direction === "next" ? rightArrow : leftArrow} alt="flèche de navigation" />
         </button>
-    )
+    );
 }
