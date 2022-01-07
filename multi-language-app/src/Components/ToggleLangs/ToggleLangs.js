@@ -13,7 +13,7 @@ export default function ToggleLangs() {
         <div className='container-langs'>
             <img onClick={() => toggleLang('FR')} src={FrenchFlag} alt="drapeau français" />            
             <img onClick={() => toggleLang('EN')} src={UkFlag} alt="drapeau du Royaume Uni" />            
-            <img onClick={() => toggleLang('SP')} src={SpainFlag} alt="drapeau de l'Espagne" />            
+            <img onClick={() => toggleLang('ES')} src={SpainFlag} alt="drapeau de l'Espagne" />            
         </div>
     );
 }
