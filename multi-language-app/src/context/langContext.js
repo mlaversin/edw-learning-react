@@ -6,8 +6,12 @@ const ContextProvider = (props) => {
 
     const [lang, setLang] = useState('EN');
 
+    const toggleLang = (changeLang) => {
+        setLang(changeLang)
+    };
+
     return (
-        <Context.Provider value={{lang}}>
+        <Context.Provider value={{lang, toggleLang}}>
             {props.children}
         </Context.Provider>
     );
