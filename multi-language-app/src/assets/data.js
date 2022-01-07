@@ -1,4 +1,4 @@
-const traductions = {
+const translations = {
   FR: {
     title: "Bonjour et bienvenue sur le site.",
     txt: "Découvrez nos fonctionnalités et nos services !",
@@ -13,4 +13,4 @@ const traductions = {
   },
 };
 
-export default traductions;
+export default translations;
