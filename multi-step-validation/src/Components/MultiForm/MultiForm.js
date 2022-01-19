@@ -1,6 +1,8 @@
 import {useState} from 'react'
 import './MultiForm.css'
 import Indicator from './Indicator/Indicator'
+import CardBegin from './Infos/CardBegin'
+import CardEnd from './Infos/CardEnd'
 
 export default function MultiForm() {
 
@@ -15,6 +17,8 @@ export default function MultiForm() {
     return (
         <div className='container-multiform'>
             <Indicator />
+            <CardBegin />
+            {/* <CardEnd /> */}
         </div>
     )
 }
