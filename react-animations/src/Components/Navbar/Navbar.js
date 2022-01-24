@@ -9,7 +9,7 @@ export default function Navbar() {
                 LIST
             </Link>
             <Link to="/stateAnim">
-                STATE
+                INPUT
             </Link>
             <Link to="/scroll">
                 SCROLL
