@@ -10,7 +10,7 @@ const translations = {
   ES: {
     title: "Hola y bienvenido al sitio.",
     txt: "¡Descubra nuestras características y servicios!",
-  },
+  }
 };
 
 export default translations;
