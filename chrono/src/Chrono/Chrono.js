@@ -5,7 +5,6 @@ import PlayImg from '../Images/play.svg'
 import ResetImg from '../Images/reset.svg'
 
 export default function Chrono() {
-  
   const [sessionTime, setSessionTime] = useState(1500)
   const [sessionTimeFixed, setSessionTimeFixed] = useState(1500)
 
@@ -83,7 +82,11 @@ export default function Chrono() {
   }
 
   return (
-    <div className="container-chrono">
+    <div
+      className={
+        workingChrono ? 'container-chrono anim-glow' : 'container-chrono'
+      }
+    >
       <div className="container-config">
         <div className="box-btns session">
           <button className="minus" onClick={handleSession}>
